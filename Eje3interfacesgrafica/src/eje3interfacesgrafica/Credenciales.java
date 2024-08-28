@@ -187,12 +187,11 @@ public class Credenciales extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jbOcultarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbOcultarActionPerformed
-        // TODO add your handling code here:
+        jpContrasea.setEchoChar('*');
     }//GEN-LAST:event_jbOcultarActionPerformed
 
     private void jbVerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbVerActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jbVerActionPerformed
+        jpContrasea.setEchoChar((char)0);    }//GEN-LAST:event_jbVerActionPerformed
 
     private void jbVerificarKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jbVerificarKeyPressed
         // TODO add your handling code here:
