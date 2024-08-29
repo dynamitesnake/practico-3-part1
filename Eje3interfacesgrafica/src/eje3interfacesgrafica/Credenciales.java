@@ -30,7 +30,9 @@ public class Credenciales extends javax.swing.JFrame {
         jbOcultar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setBackground(new java.awt.Color(0, 0, 255));
+        setTitle("Credenciales");
+        setAutoRequestFocus(false);
+        setBackground(new java.awt.Color(0, 51, 153));
 
         jPanel2.setBackground(new java.awt.Color(204, 204, 204));
 
@@ -192,10 +194,10 @@ public class Credenciales extends javax.swing.JFrame {
     }//GEN-LAST:event_jbVerificarKeyPressed
 
     private void jbVerificarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbVerificarActionPerformed
-                if(jtUsuario.getText().equalsIgnoreCase("ezequiel") & jpContrasea.getText().equalsIgnoreCase("12345"))
-                    jOCorrecto.showMessageDialog(this, "¡Bienvenido!");
+                if(jtUsuario.getText().equalsIgnoreCase("alumno@ulp.edu.ar") & jpContrasea.getText().equalsIgnoreCase("12345678"))
+                    jOCorrecto.showMessageDialog(this, "¡Bienvenido Alumno!");
                 else{
-                    jOIncorrecto.showMessageDialog(this, "incorrecto");
+                    jOIncorrecto.showMessageDialog(this, "Usuario y/o contraseña incorrectos");
                 }
     }//GEN-LAST:event_jbVerificarActionPerformed
 
