@@ -93,7 +93,7 @@ public class Credenciales extends javax.swing.JFrame {
                 .addGap(25, 25, 25))
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(104, 104, 104)
-                .addComponent(jbVerificar, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jbVerificar, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
@@ -190,7 +190,7 @@ public class Credenciales extends javax.swing.JFrame {
         jpContrasea.setEchoChar((char)0);    }//GEN-LAST:event_jbVerActionPerformed
 
     private void jbVerificarKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jbVerificarKeyPressed
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_jbVerificarKeyPressed
 
     private void jbVerificarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbVerificarActionPerformed
